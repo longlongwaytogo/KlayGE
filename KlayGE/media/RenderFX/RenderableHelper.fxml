@@ -90,6 +90,8 @@ float4 HelperPS() : SV_Target0
 
 	<technique name="LineTec">
 		<pass name="p0">
+			<!-- point\ line \ file -->
+			<!-- <state name="polygon_mode" value="line"/> -->
 			<state name="polygon_mode" value="line"/>
 			<state name="cull_mode" value="none"/>
 
